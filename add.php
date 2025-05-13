@@ -21,7 +21,7 @@ if($name != null && $email != null && $phone != null && $order !=null){
     mysqli_query($conn,$sql);
     header('Location: index.php');
 }
-
+//checking if it is null
 ?>
 
 
